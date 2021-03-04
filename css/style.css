@@ -1,0 +1,30 @@
+body {
+background: #CCC;
+}
+nav {
+background: purple
+
+}
+nav a {
+  color:white;
+}
+h1{
+  color: purple;
+}
+
+.urgent {
+  font-style: bold;
+  font-size: 2em;
+  color: red;
+}
+.responsive {
+  max-width: 50%;
+
+}
+@media only screen and (max-width: 600px) {
+  body { background-color: blue;
+  }
+}
+.sidebyside img{
+  width: 50%
+}
